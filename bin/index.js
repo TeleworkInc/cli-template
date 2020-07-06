@@ -12,7 +12,7 @@ const { sayHello } = require('..');
  * Obligatory h4x0r l33t intro.
  */
 console.log(chalk.blueBright(
-    figlet.textSync('cli-template'), 
+    figlet.textSync('cli-template'), '\n'
 ));
 
 /**
