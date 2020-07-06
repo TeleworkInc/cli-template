@@ -19,7 +19,7 @@ const error = (...msgs) => console.log(
 );
 
 /**
- * Define any core logic here.
+ * Public functions.
  */
 const sayHello = () => console.log('Hello world!');
 
