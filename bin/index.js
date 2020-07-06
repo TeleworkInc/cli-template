@@ -6,7 +6,7 @@ const figlet = require('figlet');
 /**
  * Imports from index.js.
  */
-const { sayHello } = require('..');
+const commands = require('../lib/commands');
 
 /**
  * Obligatory h4x0r l33t intro.
@@ -21,7 +21,7 @@ console.log(chalk.blueBright(
 program
     .command('hello')
     .description('Say hello to the world.')
-    .action(sayHello);
+    .action(commands.sayHello);
 
 /**
  * Parse process arguments.
