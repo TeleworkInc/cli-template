@@ -6,7 +6,7 @@ const figlet = require('figlet');
 /**
  * Import public commands.
  */
-const commands = require('../lib/commands');
+const commands = require('../commands');
 
 /**
  * Obligatory h4x0r l33t intro.

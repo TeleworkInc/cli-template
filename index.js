@@ -1,2 +1,2 @@
 // export commands
-module.exports = require('./lib/commands');
+module.exports = require('./commands');
