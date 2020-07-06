@@ -5,17 +5,20 @@ const blue = (...msgs) => chalk.blueBright(...msgs);
 
 const log = (...msgs) => console.log(
     chalk.bgBlueBright(' MSG '),
-    ...msgs
+    ...msgs,
+    '\n',
 );
 
 const success = (...msgs) => console.log(
     chalk.bgGreen(' SUCCESS '),
-    ...msgs
+    ...msgs,
+    '\n',
 );
 
 const error = (...msgs) => console.log(
     chalk.bgRed(' ERROR '),
-    ...msgs
+    ...msgs,
+    '\n',
 );
 
 /**
