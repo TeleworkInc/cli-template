@@ -4,7 +4,6 @@ const chalk = require('chalk');
 /**
  * Slightly stylized logging utils. 
  */
-
 const log = (msg) => console.log(
     chalk.bgBlueBright(' MSG '),
     msg
