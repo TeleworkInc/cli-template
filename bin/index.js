@@ -1,10 +1,19 @@
 #!/usr/bin/env node
 const { program } = require('commander');
+const chalk = require('chalk');
+const figlet = require('figlet');
 
 /**
  * Imports from index.js.
  */
 const { sayHello } = require('..');
+
+/**
+ * Obligatory h4x0r l33t shit.
+ */
+console.log(chalk.blueBright(
+    figlet.textSync('cli-template'), 
+));
 
 /**
  * Define commands and assign actions to them.
