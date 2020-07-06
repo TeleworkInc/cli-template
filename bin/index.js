@@ -2,9 +2,9 @@
 const { program } = require('commander');
 
 /**
- * Define actions.
+ * Imports from index.js.
  */
-const sayHello = () => console.log('Hello world!');
+const { sayHello } = require('..');
 
 /**
  * Define commands and assign actions to them.
@@ -18,8 +18,3 @@ program
  * Parse process arguments.
  */
 program.parse(process.argv);
-
-/**
- * Export anything that is needed for index.js.
- */ 
-module.exports = sayHello;
