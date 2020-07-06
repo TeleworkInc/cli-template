@@ -4,7 +4,7 @@ const chalk = require('chalk');
 const figlet = require('figlet');
 
 /**
- * Imports from index.js.
+ * Import public commands.
  */
 const commands = require('../lib/commands');
 
