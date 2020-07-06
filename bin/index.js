@@ -9,7 +9,7 @@ const figlet = require('figlet');
 const { sayHello } = require('..');
 
 /**
- * Obligatory h4x0r l33t shit.
+ * Obligatory h4x0r l33t intro.
  */
 console.log(chalk.blueBright(
     figlet.textSync('cli-template'), 
